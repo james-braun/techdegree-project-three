@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    max-width: 100%;
+    text-align: center;
+}
+
+header {
+    /* max-width: 320px; */
+    margin: 0 auto;
+    height: 2.5em;
+    color: white;
+    background-color: black;
+}
+
+header h3 {
+    padding-top: .5em;
+}
+
+section {
+    max-width: 320px;
+    margin: 2em auto;
+    padding-bottom: 1.5em;
+    border-bottom: 6px double black;
+}
+
+section p {
+    color: lightslategray;
+}
+
+fieldset {
+    border: none;
+    margin: 0 auto;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+legend {
+    text-align: left;
+}
