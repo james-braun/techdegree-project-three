@@ -41,7 +41,7 @@ legend {
     text-align: left;
 }
 
-input[type="text"],
+/* input[type="text"],
 input[type="password"],
 input[type="date"],
 input[type="datetime"],
@@ -50,25 +50,32 @@ input[type="number"],
 input[type="search"],
 input[type="tel"],
 input[type="time"],
-input[type="url"],
+input[type="url"], */
+input,
 textarea,
 select {
   background: rgba(255,255,255,0.1);
   border: none;
   font-size: 16px;
-  height: auto;
+  height: 1.5em;
   margin: 0;
   outline: 0;
   padding: 15px;
   width: 100%;
-  background-color: #e8eeef;
-  color: #8a97a0;
+  background-color: lightgrey;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 1em;
 }
 
 label {
     display: block;
     margin: 0;
     text-align: left;
+    font-size: 12px;
+    font-weight: 100;
 }
