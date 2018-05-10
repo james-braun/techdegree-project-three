@@ -9,7 +9,6 @@ body {
 }
 
 header {
-    /* max-width: 320px; */
     margin: 0 auto;
     height: 2.5em;
     color: white;
@@ -42,16 +41,6 @@ legend {
     text-align: left;
 }
 
-/* input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="datetime"],
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="time"],
-input[type="url"], */
 input,
 textarea,
 select {
@@ -92,4 +81,14 @@ input[type="number"] {
 
 #second-fieldset {
     margin-top: 2em;
+}
+
+#second-fieldset input {
+    margin-right: .75em;
+    height: 1em;
+    width: 1em;
+}
+
+.second-flex-container {
+    display: flex;
 }
