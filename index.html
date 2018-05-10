@@ -24,11 +24,11 @@
 
                 <div class="flex-container">
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" name="user_name">
+                    <input type="text" id="name" name="user_name" placeholder="required  ">
                 </div>
                 <div class="flex-container">
                     <label for="mail">Email Address</label>
-                    <input type="email" id="mail" name="user_email">
+                    <input type="email" id="mail" name="user_email" placeholder="required  ">
                 </div>
                 <div class="flex-container">
                     <label for="phone">Phone Number</label>
@@ -128,7 +128,9 @@
                     <input type="radio" id="text" value="text" name="user_radio">
                     <label for="text">Plain text</label>
                 </div>
-                <legend><p>Other topics you'd like to hear about</p></legend>                
+                <legend><p>Other topics you'd like to hear about</p></legend>
+                <textarea id="topics" name="user_topics"></textarea>
+                <button type="submit">Sign Up</button>        
             </fieldset>
         </form>
     </main>

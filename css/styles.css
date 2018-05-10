@@ -51,6 +51,7 @@ select {
   width: 100%;
   background-color: lightgrey;
   margin-bottom: 1em;
+  text-align: right;
 }
 
 legend {
@@ -91,4 +92,22 @@ input[type="number"] {
 
 .second-flex-container {
     display: flex;
+}
+
+textarea {
+    height: 6.25em;
+    width: 21em;
+    max-height: 6.25em;
+    max-width: 21em;
+}
+
+button {
+    padding: 1em 2.5em 1em 2.5em;
+    color: #FFF;
+    background-color: rgb(41, 80, 116);
+    font-size: 1em;
+    font-style: normal;
+    border-radius: .3em;
+    width: 100%;
+    margin-bottom: .625em;  
 }
