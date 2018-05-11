@@ -115,7 +115,7 @@ input[type="number"] {
 }
 
 #second-fieldset {
-    /* background-color: dimgrey; */
+    text-align: left;
     margin-top: 2em;
 }
 
