@@ -110,6 +110,7 @@ input[type="number"] {
 }
 
 #first-fieldset {
+    color: lightgray;
     background-color: dimgray;
     border-bottom: 2px solid;
 }
