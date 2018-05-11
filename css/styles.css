@@ -86,7 +86,6 @@ input::placeholder {
 legend {
     font-weight: bold;
     margin-bottom: .5em;
-    /* padding-top: 3em; */
 }
 
 #first-legend {
@@ -146,4 +145,36 @@ button {
     border-radius: .3em;
     width: 100%;
     margin-bottom: .625em;  
+}
+
+@media (min-width: 760px) {
+    body,
+    section,
+    fieldset,
+    p {
+        max-width: 47.5em;
+    }
+    
+    .flex-container {
+        display: flex;
+    }
+
+    body {
+        margin: auto;
+    }
+
+    .flex-container label {
+        padding-top: .625em
+    }
+
+    .flex-container input,
+    .flex-container select {
+        margin-left: auto;
+        max-width: 40em;
+    }
+
+    input[type="number"] {
+        margin-left: 2.8em;
+        width: 20%;
+    }
 }
