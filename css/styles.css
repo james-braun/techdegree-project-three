@@ -45,13 +45,42 @@ input,
 textarea,
 select {
   border: none;
+  color: #fff;
   font-size: 1em;
   height: 2em;
   margin: 0;
   width: 100%;
   background-color: lightgrey;
   margin-bottom: 1em;
-  text-align: right;
+  transition-duration: 2s;
+}
+
+select {
+    color: black;
+}
+
+input:focus {
+    background-color: lightslategray;
+}
+
+textarea:focus {
+    background-color: lightslategray;
+}
+
+input::-webkit-input-placeholder {
+    text-align: right;
+}
+input:-moz-placeholder {
+    text-align: right;
+}
+input::-moz-placeholder {
+    text-align: right;
+}
+input:-ms-input-placeholder {
+    text-align: right;
+}
+input::placeholder {
+    text-align: right;
 }
 
 legend {
@@ -60,7 +89,7 @@ legend {
 }
 
 p {
-
+    max-width: 21em;
 }
 
 label {
@@ -95,10 +124,10 @@ input[type="number"] {
 }
 
 textarea {
-    height: 6.25em;
-    width: 21em;
+    min-height: 6.25em;
+    min-width: 100%;
     max-height: 6.25em;
-    max-width: 21em;
+    max-width: 23em;
 }
 
 button {
