@@ -104,7 +104,7 @@ label {
     font-weight: 100;
 }
 
-input[type="number"] {
+#zip {
     width: 50%;
     margin-right: 50%;
 }
@@ -148,7 +148,12 @@ button {
     margin-bottom: .625em;  
 }
 
-@media (min-width: 760px) {
+label[for="topics"] {
+    color: rgb(167, 163, 163);
+    font-size: 1em;
+}
+
+@media (min-width: 768px) {
     
     section,
     fieldset,
@@ -174,7 +179,7 @@ button {
         max-width: 40em;
     }
 
-    input[type="number"] {
+    #zip {
         margin-left: 2.8em;
         width: 20%;
     }
